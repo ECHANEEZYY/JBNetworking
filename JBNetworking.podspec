@@ -8,13 +8,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JBNetworking'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of JBNetworking.'
 
   s.homepage         = 'https://github.com/ECHANEEZYY/JBNetworking'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ECHANEEZYY' => '553438532@qq.com' }
-  s.source           = { :git => 'file://Users/echaneezyy/Documents/test.nosync/JBNetworking/', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ECHANEEZYY/JBNetworking.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
