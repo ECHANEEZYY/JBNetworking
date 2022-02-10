@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (5.4.4)
+  - JBNetworking (0.1.0):
+    - Alamofire (~> 5.4.2)
+    - MBProgressHUD
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - JBNetworking (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  JBNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  JBNetworking: bc9ec4a8cc9db28ea0d4a7e017cd5a6ccf0b865e
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: d8e8c56cc5012812ae14f6b3af9b0ff5eb37545c
+
+COCOAPODS: 1.11.2
