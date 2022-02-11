@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ECHANEEZYY' => '553438532@qq.com' }
   s.source           = { :git => 'https://github.com/ECHANEEZYY/JBNetworking.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
   s.swift_versions = ['5.1', '5.2', '5.3', '5.4', '5.5']
@@ -32,6 +31,6 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
    
    s.dependency 'Alamofire', '~> 5.4.2'
-   s.dependency 'MBProgressHUD'
+#   s.dependency 'MBProgressHUD'
    
 end

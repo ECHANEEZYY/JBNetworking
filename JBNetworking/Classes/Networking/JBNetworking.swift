@@ -38,7 +38,7 @@ open class JBNetworking: NSObject {
     
     // MARK: 工具初始化
     let cookieManager = JBCookieManager.shared
-    let toastUtil = JBToastUtil()
+//    let toastUtil = JBToastUtil()
     let infoDic = Bundle.main.infoDictionary
     
     // MARK: 网络请求处理
@@ -66,7 +66,7 @@ open class JBNetworking: NSObject {
         }).responseJSON { (response) in
             print(response.value ?? "")
             if weakSelf == nil { return }
-            weakSelf!.toastUtil.hideLoading()
+//            weakSelf!.toastUtil.hideLoading()
             weakSelf!.setupAuthorization(response: response)
             weakSelf!.handleResult(response: response, continueOnErrors: continueOnErrors) { jsonData, response in
                 completion(jsonData, response)
@@ -121,7 +121,7 @@ open class JBNetworking: NSObject {
     }
     
     func handleError(reason: String?) -> Void {
-        toastUtil.showToast(text: reason)
+//        toastUtil.showToast(text: reason)
         NotificationCenter.default.post(name: NSNotification.Name.init(kJBServerErrorNotification), object: nil)
     }
     
